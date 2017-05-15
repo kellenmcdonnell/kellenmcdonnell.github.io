@@ -1,0 +1,122 @@
+.day {
+    width:100%;
+    margin: 0;
+    text-align: center;
+    background-color: #b8e0b9;
+}
+
+.day .title {
+    border-bottom: 1px solid #3a2613;
+    border-top: 1px solid #3a2613;
+    background-color:#4CAF50;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.day .content {
+    padding : 5px;
+}
+
+.wrapper { 
+	padding: 3%;
+	padding-top: 0;
+}
+
+.pgContent, .sidebar { 
+	float: right;
+}
+
+.pgContent { 
+	width: 85%;
+	margin-left: 5%;
+	margin-bottom: 50px;
+}
+
+.sidebar { 
+	padding-top: 2%;
+	width: 10%;
+}
+
+.box { 
+	position: relative;
+	background: #3a2613;
+	padding: 10px;
+	text-align: center;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.box:last-child {
+    border-bottom: 0;
+}
+
+.box a {
+    color: white;
+    text-decoration: none;
+}
+
+h3 {
+    text-align: left;
+    text-decoration: underline;
+    font-size: 16px;
+    line-height: 0px;
+}
+
+p {
+    font-size: 16px;
+    text-align: left;
+    line-height: 0px;
+}
+
+li {
+    text-align: left;
+}
+
+.actTitle {
+    font-weight: bold;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200%;
+    background-color: #3a2613;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -50%;
+}
+
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 25%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #3a2613 transparent;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.overview {
+	width: 75%;
+	margin: auto;
+	/*background-color: rgba(211, 211, 211, .65);*/
+	background-color: rgba(184, 224, 185, .67);
+	padding-top: 0px;
+	padding-left: 10px;
+}
